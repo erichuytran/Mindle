@@ -1,5 +1,9 @@
 # MesiProject
 
+### Maquette :
+
+![maquette](https://i.ibb.co/K7jv5cG/test-maquette.png)
+
 #### Trello :
 
 https://trello.com/b/bTBuNQQo
