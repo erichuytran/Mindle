@@ -16,3 +16,7 @@ https://docs.google.com/document/d/1nDu6n0xwWArVQgOT05MLnHAUVhrwDyNzu0y2cGvsDVM/
 ### Scénarios :
 
 https://docs.google.com/document/d/1TxT4YvX8fwoTyI_Vswap-GxYlbgMLR_bY_GpPZyShy0/edit
+
+### Algorithme :
+
+https://drive.google.com/file/d/15Nfl4rBVx6iG-KSSXovhRd6I16Vi_CFc/view?usp=drivesdk
