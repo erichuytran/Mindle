@@ -17,6 +17,10 @@ https://docs.google.com/document/d/1nDu6n0xwWArVQgOT05MLnHAUVhrwDyNzu0y2cGvsDVM/
 
 https://docs.google.com/document/d/1TxT4YvX8fwoTyI_Vswap-GxYlbgMLR_bY_GpPZyShy0/edit
 
+### Requêtes :
+
+https://drive.google.com/file/d/1kuXo1jpHBt7MvZI5IZ0MOB_RYKOUYJJO/view?usp=sharing
+
 ### Algorithme :
 
 https://drive.google.com/file/d/15Nfl4rBVx6iG-KSSXovhRd6I16Vi_CFc/view?usp=drivesdk
