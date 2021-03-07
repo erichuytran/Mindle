@@ -50,7 +50,7 @@ class ConnexionAction extends UserAction
                $response_search = curl_exec($curl_search);
                $Responsejson_search = json_decode($response_search);
                $track = $Responsejson_search->tracks->items;
-
+  
                return $this->respondWithData($track); 
 
     }
@@ -69,8 +69,8 @@ class ConnexionAction extends UserAction
             $codelog = $_GET['code'];
 
             //Sauvegarde des donnees du compte spotify developers
-            $clientID = "43ac2cfe3b854357b97fcc1269ac7968";
-            $ClientSecret = "5644dea5ec874e4386b71dd0f77fc613";
+            $clientID = "8e43f58a8786457dba7f442dcaa1e017";
+            $ClientSecret = "574002c8ac934a889928da34be1a2e22";
             $base64 = base64_decode("$clientID : $ClientSecret");
             $Authorization = "Authorization: Basic $base64";
             $idUser = "";
@@ -104,7 +104,7 @@ class ConnexionAction extends UserAction
 
             $resultSong = $this->getRandomSong($_SESSION["Access_Token"]);
 
-            return $this->respondWithData($resultSong); 
+            return  $resultSong; 
 
 
             }
@@ -112,7 +112,7 @@ class ConnexionAction extends UserAction
 
                 $resultSong = $this->getRandomSong($_SESSION["Access_Token"]);
 
-                return $this->respondWithData($resultSong); 
+                return  $resultSong; 
 
             }
         }

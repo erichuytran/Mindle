@@ -32,7 +32,7 @@ return function (App $app) {
 
     //Route de connexion
     $app->get('/connexion', function (Request $request, Response $response) {
-        $response->getBody()->write('<button><a href="https://accounts.spotify.com/authorize?client_id=43ac2cfe3b854357b97fcc1269ac7968&response_type=code&redirect_uri=http://localhost:8080/&state=34fFs29kd09">Connexion</button></a>
+        $response->getBody()->write('<button><a href="https://accounts.spotify.com/authorize?client_id=8e43f58a8786457dba7f442dcaa1e017&response_type=code&redirect_uri=http://localhost:8080/&state=34fFs29kd09">Connexion</button></a>
             ');
         return $response;
     });
