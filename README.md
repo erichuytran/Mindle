@@ -1,27 +1,43 @@
-# MesiProject
-
-### Maquette :
-
-![maquette](https://i.ibb.co/K7jv5cG/test-maquette.png)
-
-#### Trello :
-
-https://trello.com/b/bTBuNQQo
-
-#### Google Docs :
-
-https://docs.google.com/document/d/1nDu6n0xwWArVQgOT05MLnHAUVhrwDyNzu0y2cGvsDVM/edit?usp=sharing
+# Slim Framework 4 Skeleton Application
 
 
-### Scénarios :
+[![Coverage Status](https://coveralls.io/repos/github/slimphp/Slim-Skeleton/badge.svg?branch=master)](https://coveralls.io/github/slimphp/Slim-Skeleton?branch=master)
 
-https://docs.google.com/document/d/1TxT4YvX8fwoTyI_Vswap-GxYlbgMLR_bY_GpPZyShy0/edit
+Use this skeleton application to quickly setup and start working on a new Slim Framework 4 application. This application uses the latest Slim 4 with Slim PSR-7 implementation and PHP-DI container implementation. It also uses the Monolog logger.
 
-### Requêtes :
+This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
 
-https://drive.google.com/file/d/1kuXo1jpHBt7MvZI5IZ0MOB_RYKOUYJJO/view?usp=sharing
+## Install the Application
 
-### Algorithme :
+Run this command from the directory in which you want to install your new Slim Framework application.
 
-https://drive.google.com/file/d/15Nfl4rBVx6iG-KSSXovhRd6I16Vi_CFc/view?usp=drivesdk
-https://drive.google.com/file/d/15dOwK3R2QUTM6clDOCWFAqdJD_cSbPsA/view?usp=drivesdk
+```bash
+composer create-project slim/slim-skeleton [my-app-name]
+```
+
+Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+
+* Point your virtual host document root to your new application's `public/` directory.
+* Ensure `logs/` is web writable.
+
+To run the application in development, you can run these commands 
+
+```bash
+cd [my-app-name]
+composer start
+```
+
+Or you can use `docker-compose` to run the app with `docker`, so you can run these commands:
+```bash
+cd [my-app-name]
+docker-compose up -d
+```
+After that, open `http://localhost:8080` in your browser.
+
+Run this command in the application directory to run the test suite
+
+```bash
+composer test
+```
+
+That's it! Now go build something cool.
