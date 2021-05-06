@@ -18,41 +18,39 @@ import java.util.List;
 public class MindleBackApplication {
 
 	static final String URL = "http://localhost:8080";
-	static final String DATABASE = "testmindle";
+	static final String DATABASE = "Mindle";
 
 	static IDocumentStore store;
 	static IDocumentSession session;
+	static IDocumentSession session2;
+
 
 	static listGenres genresList;
 
 	public static void main(String[] args) {
 		store = CreateStore();
 		session = store.openSession();
-		SpringApplication.run(MindleBackApplication.class, args);
-		genresList = session.load(listGenres.class, "1a891a7e-c074-4670-9d34-0dd4fa82c67c");
-		System.out.println("la liste contient : " + genresList.listGenres.size() + "genres");
-		//AddDataUsers("Bosanova");
-		GetMainGenres();
+		genresList = session.load(listGenres.class, "bfd0f09a-2172-4153-97e5-0f549c413fe2");
+		CreateNewUser("modelNewUser", genresList);
+		//AddDataUsers("Bossanova");
+		//GetMainGenres();
 	}
 
 	public static IDocumentStore CreateStore() {
 		store = new DocumentStore(new String[]{URL}, DATABASE);
-		DocumentConventions conventions = store.getConventions();
 		store.initialize();
 		return store;
 	}
 
+
+	//Ajout d'informations utilisateurs
+	//Gestion des totaux des sous genres et genres principaux
 	public static void AddDataUsers(String NewGenres){
 		List<String> mainGenres = null;
 		for (sousGenres sousGenre: genresList.listGenres) {
-			/*System.out.println(sousGenre.Name);
-			System.out.println(sousGenre.Total);
-			System.out.println(sousGenre.Genre);*/
 			if(sousGenre.Name.equals(NewGenres)){
-				System.out.println("oui");
 				sousGenre.Total = sousGenre.Total + 1;
 				mainGenres = sousGenre.Genre;
-				System.out.println(mainGenres);
 				}
 			}
 		if (mainGenres != null){
@@ -67,9 +65,10 @@ public class MindleBackApplication {
 		session.saveChanges();
 	}
 
+	//Récupération des Genres principaux
 	public static void GetMainGenres(){
 		ArrayList<ArrayList<String>> Totals = new ArrayList();
-		List<String> listMainGenres = Arrays.asList("Jazz", "rnb");
+		List<String> listMainGenres = Arrays.asList("Jazz", "Rock");
 		for (String MainGenre : listMainGenres) {
 			for (sousGenres sousGenre: genresList.listGenres) {
 				if (sousGenre.Name.equals(MainGenre)){
@@ -80,7 +79,15 @@ public class MindleBackApplication {
 				}
 			}
 		}
-		System.out.println(Totals);
+	}
+
+
+	//Création d'un nouveau doc utilisateur
+	//L'id correspondra à son idSpotify
+	public static void CreateNewUser(String id, listGenres NewUser){
+		session2 = store.openSession();
+		session2.store(NewUser, id);
+		session2.saveChanges();
 	}
 
 }
