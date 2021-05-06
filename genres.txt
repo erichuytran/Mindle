@@ -1,0 +1,944 @@
+{
+    "listGenres": [
+        {
+            "Name": "Bossanova",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "World-music"
+                
+            ]
+        },
+        {
+            "Name": "Afrobeat",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "Funk",
+                "World-music"
+            ]
+        },
+        {
+            "Name": "Chicago-house",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "Funk"            ]
+        },
+        {
+            "Name": "Groove",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "Hip_hop"            ]
+        },
+        {
+            "Name": "Ska",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Rock",
+                "Reggae"
+                ]
+        },
+        {
+            "Name": "Soul",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "Blues"
+                ]
+        },
+        {
+            "Name": "Gospel",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "Blues"
+                ]
+        },
+        {
+            "Name": "Trip-hop",
+            "Total": 0,
+            "Genre": [
+                "Jazz",
+                "Funk",
+                "Alternative"
+                
+                ]
+        },
+        {
+            "Name": "Jazz",
+            "Total": 9,
+            "Genre": [
+                "Jazz"
+            ]
+        },
+        {
+            "Name": "Breakbeat",
+            "Total": 0,
+            "Genre": [
+                "Funk",
+                "Electro",
+                "Hip-hop"
+            ]
+        },
+        {
+            "Name": "Funk",
+            "Total": 0,
+            "Genre": [
+                "Funk"
+            ]
+        },
+        {
+            "Name": "Alt-rock",
+            "Total": 0,
+            "Genre": [
+                "Alternative",
+                "Rock"         
+                ]
+        },
+        {
+            "Name": "Alternative",
+            "Total": 0,
+            "Genre": [
+                "Alternative"
+            ]
+        },
+        {
+            "Name": "Acoustic",
+            "Total": 0,
+            "Genre": [
+                "Alternative",
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Chill",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+            ]
+        },
+        {
+            "Name": "Garage",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+            ]
+        },
+        {
+            "Name": "Happy",
+            "Total": 0,
+            "Genre": [
+                "Ambient",
+                "Children"
+                ]
+        },
+        {
+            "Name": "Holidays",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+            ]
+        },
+        {
+            "Name": "New-age",
+            "Total": 0,
+            "Genre": [
+                "Ambient",
+                "World-music"
+            ]
+        },
+        {
+            "Name": "Rainy-day",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Road-trip",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+         {
+            "Name": "Romance",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+         {
+            "Name": "Sleep",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Sad",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Study",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Summer",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Work-out",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Comedy",
+            "Total": 0,
+            "Genre": [
+                "Ambient",
+                "Children"
+                ]
+        },
+        {
+            "Name": "Ambient",
+            "Total": 0,
+            "Genre": [
+                "Ambient"
+                ]
+        },
+        {
+            "Name": "Grunge",
+            "Total": 0,
+            "Genre": [
+                "Rock",
+                "Metal",
+                "Punk"
+                ]
+        },
+        {
+            "Name": "Hard-rock",
+            "Total": 0,
+            "Genre": [
+                "Rock"
+                ]
+        },
+        {
+            "Name": "Indie-pop",
+            "Total": 0,
+            "Genre": [
+                "Rock",
+                "Punk"
+                ]
+        },
+        {
+            "Name": "J-pop",
+            "Total": 0,
+            "Genre": [
+                "Pop",
+                "World-music"
+                ]
+        },
+        {
+            "Name": "J-rock",
+            "Total": 0,
+            "Genre": [
+                "Rock",
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Mandopop",
+            "Total": 0,
+            "Genre": [
+                "Pop",
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Power-pop",
+            "Total": 0,
+            "Genre": [
+                "Rock",
+                "Pop"
+                ]
+        },
+        {
+            "Name": "Psych-rock",
+            "Total": 0,
+            "Genre": [
+                "Rock"
+                ]
+        },
+        {
+            "Name": "Synth-pop",
+            "Total": 0,
+            "Genre": [
+                "Rock",
+                "Pop",
+                "Electro",
+                "Disco"
+                ]
+        },
+        {
+            "Name": "Rock",
+            "Total": 0,
+            "Genre": [
+                "Rock"
+                ]
+        },
+        {
+            "Name": "Anime",
+            "Total": 0,
+            "Genre": [
+                "Children",
+                "Movies"
+                ]
+        },
+        {
+            "Name": "Disney",
+            "Total": 0,
+            "Genre": [
+                "Children",
+                "Movies"
+                ]
+        },
+        {
+            "Name": "Kids",
+            "Total": 0,
+            "Genre": [
+                "Children"
+                ]
+        },
+        {
+            "Name": "Kids",
+            "Total": 0,
+            "Genre": [
+                "Kids"
+                ]
+        },
+        {
+            "Name": "Alternative",
+            "Total": 0,
+            "Genre": [
+                "Alternative"
+                ]
+        },
+        {
+            "Name": "Metal",
+            "Total": 0,
+            "Genre": [
+                "Metal"
+                ]
+        },
+        {
+            "Name": "Black-metal",
+            "Total": 0,
+            "Genre": [
+                "Metal"
+                ]
+        },
+        {
+            "Name": "Death-metal",
+            "Total": 0,
+            "Genre": [
+                "Metal"
+                ]
+        },
+        {
+            "Name": "Grindcore",
+            "Total": 0,
+            "Genre": [
+                "Metal",
+                "Punk",
+                "Hardcore"
+                ]
+        },
+        {
+            "Name": "Heavy-metal",
+            "Total": 0,
+            "Genre": [
+                "Metal"
+                ]
+        },
+        {
+            "Name": "Metal-misc",
+            "Total": 0,
+            "Genre": [
+                "Metal"
+                ]
+        },
+        {
+            "Name": "Metalcore",
+            "Total": 0,
+            "Genre": [
+                "Metal",
+                "Hardcore"
+                ]
+        },
+        {
+            "Name": "Blues",
+            "Total": 0,
+            "Genre": [
+                "Blues"
+                ]
+        },
+        {
+            "Name": "Rockabilly",
+            "Total": 0,
+            "Genre": [
+                "Blues",
+                "Country"
+                ]
+        },
+        {
+            "Name": "Bluegrass",
+            "Total": 0,
+            "Genre": [
+                "Blues",
+                "Country"
+                ]
+        },
+        {
+            "Name": "Honky-tonk",
+            "Total": 0,
+            "Genre": [
+                "Country"
+                ]
+        },
+        {
+            "Name": "Country",
+            "Total": 0,
+            "Genre": [
+                "Country"
+                ]
+        },
+        {
+            "Name": "World-music",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Brazil",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "British",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Cantopop",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "German",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "French",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Forro",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Indian",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Iranian",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "J-dance",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Electro"
+                ]
+        },
+        {
+            "Name": "J-idol",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "K-pop",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Latino",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Malay",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Rnpb",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Pagobe",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Philippines-opm",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Salsa",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Samba",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Spanish",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Swedish",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Turkish",
+            "Total": 0,
+            "Genre": [
+                "World-music"
+                ]
+        },
+        {
+            "Name": "Club",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Dance",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Dubstep",
+            "Total": 0,
+            "Genre": [
+                "World-music",
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Edm",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Electronic",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Idm",
+            "Total": 0,
+            "Genre": [
+                "Electro",
+                "House",
+                "Techno"
+                ]
+        },
+        {
+            "Name": "Indie",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Industrial",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Minimal-techno",
+            "Total": 0,
+            "Genre": [
+                "Electro",
+                "Techno"
+                ]
+        },
+        {
+            "Name": "Party",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Progressive-house",
+            "Total": 0,
+            "Genre": [
+                "Electro"
+                ]
+        },
+        {
+            "Name": "Hip-hop",
+            "Total": 0,
+            "Genre": [
+                "Hip-hop"
+                ]
+        },
+        {
+            "Name": "Dancehall",
+            "Total": 0,
+            "Genre": [
+                "Hip-hop"
+                ]
+        },
+        {
+            "Name": "Groove",
+            "Total": 0,
+            "Genre": [
+                "Hip-hop"
+                ]
+        },
+        {
+            "Name": "Rnb",
+            "Total": 0,
+            "Genre": [
+                "Hip-hop"
+                ]
+        },
+        {
+            "Name": "Opera",
+            "Total": 0,
+            "Genre": [
+                "Opera"
+                ]
+        },
+        {
+            "Name": "Opera",
+            "Total": 0,
+            "Genre": [
+                "Classical"
+                ]
+        },
+        {
+            "Name": "Show-tunes",
+            "Total": 0,
+            "Genre": [
+                "Classical"
+                ]
+        },
+        {
+            "Name": "House",
+            "Total": 0,
+            "Genre": [
+                "House"
+                ]
+        },
+        {
+            "Name": "Deep-house",
+            "Total": 0,
+            "Genre": [
+                "House"
+                ]
+        },
+        {
+            "Name": "Idm",
+            "Total": 0,
+            "Genre": [
+                "House"
+                ]
+        },
+        {
+            "Name": "Deep-house",
+            "Total": 0,
+            "Genre": [
+                "House"
+                ]
+        },
+        {
+            "Name": "Progressive-house",
+            "Total": 0,
+            "Genre": [
+                "House"
+                ]
+        },
+        {
+            "Name": "Detroit-techno",
+            "Total": 0,
+            "Genre": [
+                "Techno"
+                ]
+        },
+        {
+            "Name": "Dubstep",
+            "Total": 0,
+            "Genre": [
+                "Techno"
+                ]
+        },
+        {
+            "Name": "Hardstyle",
+            "Total": 0,
+            "Genre": [
+                "Techno"
+                ]
+        },
+        {
+            "Name": "Trance",
+            "Total": 0,
+            "Genre": [
+                "Techno",
+                "Hardcore"
+                ]
+        },
+        {
+            "Name": "Techno",
+            "Total": 0,
+            "Genre": [
+                "Techno"
+                ]
+        },
+        {
+            "Name": "Disco",
+            "Total": 0,
+            "Genre": [
+                "Disco"
+                ]
+        },
+        {
+            "Name": "Raggae",
+            "Total": 0,
+            "Genre": [
+                "Raggae"
+                ]
+        },
+        {
+            "Name": "Drum-and-bass",
+            "Total": 0,
+            "Genre": [
+                "Raggae",
+                "Dubstep"
+                ]
+        },
+        {
+            "Name": "Raggaeton",
+            "Total": 0,
+            "Genre": [
+                "Raggae"
+                ]
+        },
+        {
+            "Name": "Punk",
+            "Total": 0,
+            "Genre": [
+                "Punk"
+                ]
+        },
+        {
+            "Name": "Emo",
+            "Total": 0,
+            "Genre": [
+                "Punk"
+                ]
+        },
+        {
+            "Name": "Goth",
+            "Total": 0,
+            "Genre": [
+                "Punk"
+                ]
+        },
+        {
+            "Name": "Grindcore",
+            "Total": 0,
+            "Genre": [
+                "Punk",
+                "Hardcore"
+                ]
+        },
+        {
+            "Name": "Hardstyle",
+            "Total": 0,
+            "Genre": [
+                "Hardcore"
+                ]
+        },
+        {
+            "Name": "Hardcore",
+            "Total": 0,
+            "Genre": [
+                "Hardcore"
+                ]
+        },
+        {
+            "Name": "Pop-film",
+            "Total": 0,
+            "Genre": [
+                "Pop",
+                "Movies"
+                ]
+        },
+        {
+            "Name": "Sertanejo",
+            "Total": 0,
+            "Genre": [
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Tango",
+            "Total": 0,
+            "Genre": [
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Latin",
+            "Total": 0,
+            "Genre": [
+                "Latino"
+                ]
+        },
+        {
+            "Name": "Dubstep",
+            "Total": 0,
+            "Genre": [
+                "Dubstep"
+                ]
+        },
+        {
+            "Name": "Post-dubstep",
+            "Total": 0,
+            "Genre": [
+                "Dubstep"
+                ]
+        },
+        {
+            "Name": "Dub",
+            "Total": 0,
+            "Genre": [
+                "Dubstep"
+                ]
+        },
+        {
+            "Name": "Singer-songwriter",
+            "Total": 0,
+            "Genre": [
+                "Singer-songwriter"
+                ]
+        },
+        {
+            "Name": "Guitar",
+            "Total": 0,
+            "Genre": [
+                "Singer-songwriter"
+                ]
+        },
+        {
+            "Name": "Piano",
+            "Total": 0,
+            "Genre": [
+                "Singer-songwriter"
+                ]
+        },
+        {
+            "Name": "Songwriter",
+            "Total": 0,
+            "Genre": [
+                "Singer-songwriter"
+                ]
+        }
+    ]
+}
